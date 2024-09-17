@@ -1,0 +1,27 @@
+version: '3.9'
+
+services:
+  db:
+    image: mysql
+    restart: always
+    environment:
+      # MYSQL_DATABASE: 'db'
+      # MYSQL_USER: 'user'
+      # MYSQL_PASSWORD: '54321'
+      MYSQL_ROOT_PASSWORD: '12345'
+    # ports:
+      # - '3306:3306'
+    # volumes:
+    #   - my-db:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    ports:
+      - "80:80"
+    environment:
+      # MYSQL_USERNAME: 'user'
+      MYSQL_ROOT_PASSWORD: '12345'
+
+# volumes:
+#   my-db:
