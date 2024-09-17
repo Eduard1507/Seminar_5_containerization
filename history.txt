@@ -1,0 +1,301 @@
+    1  sudo apt update
+    2  sudo apt install lxc
+    3  sudo apt-get install lxc deboostrap bridge-utils lxc-templates
+    4  apt-get install lxd-installer
+    5  sudo apt-get install lxd-installer
+    6  lxd init
+    7  sudo lxd init
+    8  lxc storage list
+    9  sudo lxd init
+   10  sudo usermod -aG lxd $USER
+   11  lxd init
+   12  sudo lxd init
+   13  sudo lxc storage list
+   14  lxc-create -n test123 -t ubuntu
+   15  lxc-create -n tes3 -t ubuntu
+   16  creat
+   17  lxc-start -n test123~
+   18  sudo lxc-start -n test123~
+   19  lxc-attach -n teat123
+   20  sudo lxc-attach -n test123
+   21  lxc-attach -n test123
+   22  sudo lxc-attach -n test123
+   23  sudo lxc-info -n test123
+   24  sudo lxc-attach -n test123
+   25  sudo lxc-info -n test123
+   26  sudo lxc-start -n test123
+   27  lxc-start -n test123
+   28  sudo lxc-start -n test123
+   29  sudo lxc-destroy -n test123
+   30  lxc-create -n test123 -t ubuntu
+   31  lxc-start -n test123
+   32  lxc-create -n test123 -t ubuntu
+   33  lxc-start -n test123
+   34  sudo lxc-create -n test123 -t ubuntu
+   35  lxc-attach -n teat123
+   36  lxc-start -n test123
+   37  sudo lxc-start -n test123
+   38  lxc-attach -n teat123
+   39  sudo lxc-attach -n test123
+   40  lxc-stop -n test123
+   41  nano /var/lib/lxc/test123/config
+   42  Network configuration 
+   43  lxc.cgroup2.memory.max = 256M
+   44  sudo lxc-start -n test123
+   45  free -m
+   46  sudo lxc-start -n test123
+   47  sudo lxc-attach -n test123
+   48  sudo lxc-start -n test123
+   49  lxc.cgroup2.memory.max = 256M~
+   50  sudo lxc-start -n test123
+   51  sudo lxc-attach -n test123
+   52  lxc-stop -n test123
+   53  nano /var/lib/lxc/test123/config
+   54  sudo lxc-start -n test123
+   55  sudo lxc-attach -n test123
+   56  lxc-stop -n test123
+   57  sudo lxc-start -n test123
+   58  sudo lxc-attach -n test123
+   59  lxc-stop -n test123
+   60  lxc.rootfs.path = dir:/var/lib/lxc/test1234/rootfs
+   61  nano /var/lib/lxc/test123/config
+   62  lxc-start -n test123
+   63  sudo lxc-start -n test123
+   64  sudo lxc-attach -n teat123
+   65  free -m
+   66  sudo lxc-attach -n teat123
+   67  sudo lxc-start -n test123
+   68  sudo lxc-attach -n teat123
+   69  sudo lxc-start -n test123
+   70  lxc-attach -n teat123
+   71  lxc-stop -n test123
+   72  lxc-start -n test123
+   73  sudo lxc-start -n test123
+   74  sudo lxc-attach -n teat123
+   75  lxc-stop -n test123
+   76  sudo lxc-stop -n test123
+   77  sudo lxc-start -n test123
+   78  sudo lxc-attach -n teat123
+   79  sudo lxc-start -n test1234
+   80  sudo lxc-start -n test123
+   81  sudo lxc-attach -n teat123
+   82  exit
+   83  lxc.rootfs.path = dir:/var/lib/lxc/test1234/rootfs
+   84  lxc-create -n test123 -t ubuntu
+   85  sudo lxc-start -n test123
+   86  sudo lxc-attach -n tee123
+   87  sudo lxc-attach -n test123
+   88  sudo lxc-stop -n test123
+   89  nano /var/lib/lxc/test123/config
+   90  Network configuration
+   91  lxc.cgroup2.memory.max = 256M
+   92  nano /var/lib/lxc/test123/config
+   93  sudo lxc-start -n test123
+   94  sudo lxc-attach -n test123
+   95  sudo lxc-stop -n test123
+   96  clear
+   97  sudo apt update
+   98  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   99  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  100  echo "deb [signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  101  sudo apt update
+  102  sudo apt install docker-ce
+  103  sudo usermod -aG docker $USER
+  104  newgrp docker
+  105  sudo apt install docker-ce
+  106  sudo usermod -aG docker $USER
+  107  docker images
+  108  docker run:
+  109  docker run
+  110  sudo apt update
+  111  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+  112  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  113  sudo apt update~
+  114  sudo apt update
+  115  sudo apt install docker-ce
+  116  sudo usermod -aG docker $USER
+  117  docker images
+  118  docker --version
+  119  docker image
+  120  docker images
+  121  newgrp docker
+  122  docker --version
+  123  docker images
+  124  sudo apt update
+  125  sudo apt install docker-ce
+  126  sudo usermod -aG docker $USE
+  127  sudo usermod -aG docker $USER
+  128  newgrp docker
+  129  docker run -it -h GB --name gb-test ubuntu:22.10
+  130  docker stop
+  131  docker stop gb-test
+  132  docker start gb-test
+  133  docker exec -it gb-test bash
+  134  docker stop gb-test
+  135  docker ps
+  136  docker ps -a
+  137  docker rm gb-test 81e0d4b059ac
+  138  docker rm $(docker ps -aq)
+  139  docker ps -a
+  140  mkdir test
+  141  ls
+  142  mkdir test/folder
+  143  docker run -it -h GB --name gb-test -v test/folder:/otherway ubuntu:22.10
+  144  docker run -it -h GB --name gb-test -v /test/folder:/otherway ubuntu:22.10
+  145  docker stop gb-test
+  146  ll
+  147  cd test
+  148  cd folder/
+  149  ll
+  150  mkdik test.txt
+  151  mkdir test.txt
+  152  ll
+  153  cat test.txt
+  154  nano text.txt
+  155  sudo nano text.txt
+  156  docker start gb-test 
+  157  docker exec -it gb-test bash 
+  158  cd
+  159  -history
+  160  -help
+  161  sudo help
+  162  sudo  --help
+  163  history
+  164  history > history 05-09.txt
+  165  ls
+  166  nano history
+  167  history
+  168  history > history.txt
+  169  ls
+  170  nano history.txt
+  171  mkdir seminar4
+  172  cd seminar4/
+  173  nano app.py
+  174  nano Dockerfile
+  175  docker build -t docker build -t my-docker-image
+  176  docker build -t docker build -t my-docker-image .
+  177  docker build -t docker build -t my-docker-image 
+  178  docker build -t my-docker-image . 
+  179  nano Dockerfile
+  180  docker run -it my-docker-image
+  181  docker images
+  182  docker run -it my-docker-image
+  183  docker images
+  184  mkdir compose
+  185  cd compose
+  186  nano compose.yaml
+  187  sudo docker-compose up
+  188  docker-compose up
+  189  sudo docker-compose up
+  190  nano compose.yaml 
+  191  mv compose.yaml docker-compose.yaml
+  192  nano docker-compose.yaml 
+  193  sudo docker-compose.yaml
+  194  sudo docker-compose up -d
+  195  nano compose.yaml 
+  196  nano docker-compose.yaml 
+  197  sudo docker-compose up -d
+  198  docker-compose up -d
+  199  sudo snap install docker
+  200  sudo docker-compose up -d
+  201  docker ps
+  202  sudo docker-compose down 
+  203  docker ps
+  204  docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-sycret-pw
+  205  docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-sycret-pw mysql:8.0.31
+  206  sudo docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-sycret-pw mysql:8.0.31
+  207  sudo docker run -d --name myphp --link some-mysql:db -e PMA_HOST=some-mysql -p 8082:80 phpmyadmin/phpmyadmin
+  208  sudo docker ps
+  209  sudo u
+  210  sudo su
+  211  mkdir seminar_5
+  212  cd
+  213  sudo su
+  214  nano compose.yaml
+  215  nano compose.yaml
+  216  rmdir seminar_5
+  217  cd
+  218  rmdir seminar_5
+  219  sudo rmdir seminar_5/
+  220  sudo rmdir seminar_5
+  221  rm -R seminar_5
+  222  nano compose.yaml 
+  223  sudo stop
+  224  sudo rmdir seminar_5/
+  225  rm -R seminar_5
+  226  sudo docker stop
+  227  sudo docker-compose stop
+  228  sudo docker rm
+  229  sudo sudo docker rm
+  230  sudo rm -rd seminar_5
+  231  clear
+  232  mkdir seminar_5
+  233  cd seminar_5
+  234  nano compose.yaml
+  235  sudo docker-compose up
+  236  nano compose.yaml
+  237  sudo docker-compose up
+  238  nano compose.yaml
+  239  sudo docker-compose up
+  240  sudo docker-compose up -d
+  241  sudo su
+  242  cd seminar_5
+  243  nano docker-compose.yaml
+  244  sudo docker-compose up -d
+  245  docker compose ps
+  246  nano docker-compose.yaml
+  247  sudo docker-compose up -d
+  248  nano docker-compose.yaml
+  249  sudo docker-compose up -d
+  250  nano docker-compose.yaml
+  251  sudo docker-compose up -d
+  252  docker ps -a
+  253  sudo docker-compose stop
+  254  sudo docker rm seminar_5-adminer-1 --force
+  255  mkdir task2
+  256  cd task2
+  257  nano docker compose.yaml
+  258  sudo docker_compose.yaml
+  259  nano docker_compose.yaml
+  260  sudo docker_compose up -d
+  261  sudo docker_compose up
+  262  docker_compose up -d
+  263  sudo docker_compose up -d
+  264  nano docker_compose.yaml
+  265  sudo docker compose up -d
+  266  docker ps -a
+  267  sudo docker compose stop
+  268  nano docker_compose.yaml
+  269  sudo docker-compose up -d
+  270  nano docker_compose.yaml
+  271  sudo docker-compose up -d
+  272  docker ps -a
+  273  sudo docker compose stop
+  274  cd
+  275  cd seminar_5
+  276  cd
+  277  creat
+  278  cd
+  279  sudo su
+  280  sudo docker swarm init
+  281  sudo su
+  282  cd seminar_5
+  283  docker servise create --name seminar_5-adminer-1_rep --replicas 1 adminer:4.8.1;
+  284  docker service create --name seminar_5-adminer-1_rep --replicas 1 adminer:4.8.1;
+  285  docker ps -a
+  286  sudo su
+  287  cd seminar_5
+  288  docker run -d --name db -e MYSQL_ROOT_PASSWORD=12345 adminer:4.8.1
+  289  sudo docker run -d --name db -e MYSQL_ROOT_PASSWORD=12345 adminer:4.8.1
+  290  docker compose stop
+  291  sudo docker run -d --name db -e MYSQL_ROOT_PASSWORD=12345 adminer:4.8.1
+  292  sudo docker run -d --name de -e MYSQL_ROOT_PASSWORD=12345 adminer:4.8.1
+  293  sudo sudo docker run -d --name de -e MYSQL_ROOT_PASSWORD=12345 adminer:4.8.1
+  294* docker ps[B
+  295  sudo docker run -d --name myphp --link some-mysql:db -e PMA_HOST=some-mysql -p 8082:80 phpmyadmin/phpmyadmin
+  296  sudo sudo docker run -d --name myphp --link some-mysql:db -e PMA_HOST=some-mysql -p 8082:80 phpmyadmin/phpmyadmin
+  297  docker ps
+  298  sudo docker ps
+  299  docker history
+  300  history
+  301  history > history.txt
