@@ -33,74 +33,32 @@ Task - это непосредственно созданный контейне
 
 ![1](https://github.com/user-attachments/assets/53c094f3-ca46-472c-a3f0-b1525c1882b1)
 
-
-
-
-
-Компилируем node:
-
+![2](https://github.com/user-attachments/assets/466c76e9-4b4d-472b-b2e4-9cc3c0b9a25d)
 
 
 Проверяем:
 
-
-
-Пытаемся задеплоить в Stack:
-
-
-
-
-
-Получаем ошибку: "версия данного файла не поддерживается", продолжаем делать, как делали на семинаре. Запускаем первый ДК-файл:
-
-
-
-Проверяем:
-
-
+![3](https://github.com/user-attachments/assets/815baafc-71fd-4c78-bed4-11c6ca9db4d7)
 
 
 
 Запускаем второй ДК-файл:
 
+![4](https://github.com/user-attachments/assets/76fae871-0cc9-4a99-86d2-4feff95d3125)
 
 
+![5](https://github.com/user-attachments/assets/a9d07059-9d4f-48c0-a783-d87b9b45d3be)
 
 
+Второй вариант решение C*:
+
+![6](https://github.com/user-attachments/assets/1fb2ec41-9b54-4741-974a-937bf72d3b31)
 
 
-Второй вариант решение(с использованием второй node):
-
-Подключаемся по SSH ко второй VM и устанавливаем swarm соединение, предварительно инициализировав manager node:
+![7](https://github.com/user-attachments/assets/0a6d3f1c-285f-43c4-aa81-4d6a600df0ed)
 
 
-
-Запускаем первый ДК-файл на manager node:
-
-
-
-Проверяем:
-
-
-
-Запускаем второй ДК-файл на worker node:
-
-
-
-Проверяем:
-
-
-
-Попробуем запустить первый ДК-файл на node worker:
-
-
-
-Проверяем, все работает, ошибки дублирования не произошло т. к имена image разные(ДК-файлы в разных директориях находятся на VM)
-
-
-
-Запускаем на manager node второй ДК-файл и получаем четыре работающих контейнера на одной node и на другой (не считая hello-word):
-
+![8](https://github.com/user-attachments/assets/2242c7c2-267c-4227-8022-831f8fab85db)
 
 
 Подготовил студент GeekBrains Калуга Эдуард, Seminar_5_containerization
